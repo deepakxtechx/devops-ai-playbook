@@ -18,7 +18,7 @@ spec:
           image: 786221173552.dkr.ecr.ap-south-1.amazonaws.com/auth:c66310846dd66c227edfdf60809ed308ce88c4df
           ports:
             - containerPort: 3002
-          env:
+          env: 
             - name: NODE_ENV
               value: development
             - name: PORT
